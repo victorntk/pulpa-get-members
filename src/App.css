@@ -1,0 +1,43 @@
+body{
+  margin-left: 250px;
+  margin-top: 120px;
+  font-family: sans-serif;
+  background-color: #F0EDF8;
+  
+}
+
+.App {
+  display: flex;
+  text-align: center;
+  width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #FFFF;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.table>tbody>tr:nth-child(odd)>td, 
+.table>tbody>tr:nth-child(odd)>th {
+   background-color: #F4F3F9;
+}
+
+.nome{
+  color: #7D2DC9;
+}
+
+.check{
+  color: black;
+}
+.success{
+  color: #7D2DC9;
+}
+.column{
+  color: #7D2DC9;
+}
+
+.ProgressBar{
+  color: #7D2DC9;
+}
